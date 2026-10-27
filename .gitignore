@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+coverage/
+
+# Entornos y secretos (solo se versiona .env.example)
+.env
+.env.*
+!.env.example
+
+# Excel: nunca se versiona, salvo los fixtures sintéticos de pruebas
+*.xlsx
+*.xlsm
+*.xlsb
+*.xls
+~$*
+!**/tests/fixtures/**/*.xlsx
+!**/tests/fixtures/**/*.xlsm
+!**/tests/fixtures/**/*.xlsb
+!**/tests/fixtures/**/*.xls
+
+# Editor / SO
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Claude Code local
+.claude/settings.local.json
+.claude/scheduled_tasks.lock

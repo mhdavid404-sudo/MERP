@@ -1,0 +1,17 @@
+# Todo el texto se guarda y se extrae con LF, también en Windows.
+* text=auto eol=lf
+
+# Binarios
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.pdf  binary
+*.xlsx binary
+*.xlsm binary
+*.xlsb binary
+*.xls  binary
